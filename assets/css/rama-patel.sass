@@ -9,6 +9,7 @@ $font3: 'Product Sans', sans-serif
 body
   font-family: $font2
   font-size: 16px
+  margin: 0
 
 /* HEADER
 
@@ -30,7 +31,10 @@ body
   .sub-header-tag
     font-size: 16px
     font-weight: 300
-
+  a
+    color: #fff
+    &:hover, &:focus
+      color: #222
 .btn-round
   color: #fff
   &:hover, &:focus
@@ -83,6 +87,9 @@ body
         font-size: 14px
         font-family: $font2
 
+#footer
+  border-top: 1px solid #ddd
+  padding: 25px 0
 
 
 .row.vdivide [class*='col-']:not(:last-child):before

@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 
 /* HEADER */
@@ -29,6 +30,14 @@ body {
 #header .sub-header-tag {
   font-size: 16px;
   font-weight: 300;
+}
+
+#header a {
+  color: #fff;
+}
+
+#header a:hover, #header a:focus {
+  color: #222;
 }
 
 .btn-round {
@@ -130,6 +139,11 @@ body {
 #resume #tools h4 b {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+}
+
+#footer {
+  border-top: 1px solid #ddd;
+  padding: 25px 0;
 }
 
 .row.vdivide [class*='col-']:not(:last-child):before {
