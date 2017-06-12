@@ -1,0 +1,91 @@
+/*
+ *BUILT FOR RAMA-PATE.COM, ALL RIGHTS RESERVED.
+ *BUILT BY REXSDEV.COM */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+/* HEADER */
+#header {
+  background: url(../img/header-rama-patel.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+}
+
+#header .sub-header-tag {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn-round {
+  color: #fff;
+}
+
+.btn-round:hover, .btn-round:focus {
+  color: #222;
+}
+
+/* RESUME */
+#resume {
+  padding: 25px 0 25px 0;
+}
+
+#resume .section {
+  padding-left: 15px;
+}
+
+#resume .row {
+  margin-bottom: 15px;
+}
+
+#resume h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  color: #ffc107;
+}
+
+#resume h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+#resume h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#resume .timeframe {
+  font-size: 14px;
+  color: #999;
+}
+
+#resume h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #646464;
+  font-weight: 200 !important;
+}
+
+#resume h4 b {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
